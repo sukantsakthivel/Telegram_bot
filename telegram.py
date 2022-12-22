@@ -1,8 +1,8 @@
 
 import telegram.ext
 
-Token = "5932219013:AAGkThVJh-7Atqq1HLoQ6TfMP_PgkxrWTcw"
-updater = telegram.ext.updater("5932219013:AAGkThVJh-7Atqq1HLoQ6TfMP_PgkxrWTcw", use_context=True)
+Token = "Your_Telegram_Bot_API_Token"
+updater = telegram.ext.updater("Your_Telegram_Bot_API_Token", use_context=True)
 dispatcher = updater.dispatcher
 def start(update, context):
     update.message.reply_text("Hello! Welcome to S4")
